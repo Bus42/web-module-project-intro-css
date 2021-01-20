@@ -1,0 +1,37 @@
+:root {
+    --banner-height: 240px;
+}
+
+footer {
+    max-height: 400px;
+}
+
+header {
+    border: 1px dotted red;
+    display: block;
+    height: var(--banner-height);
+    text-align: center;
+}
+
+header>img {
+    height: var(--banner-height);
+    border-radius: 50%;
+    float: left;
+    margin-left: 80px;
+}
+
+footer>img {
+    width: 100%;
+}
+
+nav>ul>li:nth-child(1) {
+    background-color: #FF764E;
+}
+
+nav>ul>li:nth-child(2) {
+    background-color: #5ED3EB;
+}
+
+nav>ul>li:nth-child(3) {
+    background-color: #FFCD69;
+}
