@@ -1,5 +1,8 @@
 :root {
     --banner-height: 240px;
+    --orange: #ff764e;
+    --blue: #5ed3eb;
+    --yellow: #ffcd69;
 }
 
 footer {
@@ -24,14 +27,32 @@ footer>img {
     width: 100%;
 }
 
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
 nav>ul>li:nth-child(1) {
-    background-color: #FF764E;
+    background-color: var(--orange);
 }
 
 nav>ul>li:nth-child(2) {
-    background-color: #5ED3EB;
+    background-color: var(--blue);
 }
 
 nav>ul>li:nth-child(3) {
-    background-color: #FFCD69;
+    background-color: var(--yellow);
+}
+
+.advisory>img {
+    height: 120px;
 }
